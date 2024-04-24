@@ -5,7 +5,7 @@ This Python script fetches stock data and news articles related to a specific st
 Dependencies
 
 Python 3.x
-requests library: Used for making HTTP requests to fetch stock data and news articles.
+requests library: Used for making HTTPS requests to fetch stock data and news articles.
 smtplib library: Used for sending email notifications.
 An internet connection is required to fetch stock data and news articles.
 
