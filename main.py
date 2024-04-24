@@ -72,7 +72,7 @@ article_1[1] = remove_link(article_1[1])
 article_2[1] = remove_link(article_2[1])
 article_3[1] = remove_link(article_3[1])
 
-if percent[0] >= 3:
+if percent[0] >= 1:
     msg = (
     f"Subject: {STOCK}: {percent[1]}{percent[0]:.2f}%\n\n"
     f"News Report\n\n"
