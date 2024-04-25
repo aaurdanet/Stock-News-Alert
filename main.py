@@ -61,6 +61,11 @@ article_3 = [articles[2]["title"], articles[2]["description"], articles[2]["url"
 
 
 def remove_link(description):
+
+    if description is None:
+        description = "Not available from this source."
+        return description
+    
     link_index = description.find("https://")
     if link_index != -1:
         return description[:link_index]
